@@ -478,7 +478,7 @@ def main():
             elif "weather" in query:
                 
                 # paste your api key here
-                api_key = "cb44790e87950f163636975c2aba3f6e"
+                api_key = "Your api key"
 
                 # getting city name from user
                 speak("City Name:")            
@@ -534,7 +534,7 @@ def main():
 
             elif 'news' in query:
                 try:
-                    jsonObj = urlopen("https://newsapi.org/v2/top-headlines?country=in&apiKey=047cf1ad8aac41fbb97d0afa0fd67d58")
+                    jsonObj = urlopen("https://newsapi.org/v2/top-headlines?country=in&apiKey=yourapikey")
                     data = json.load(jsonObj)
                     i=1
 
@@ -562,7 +562,7 @@ def main():
 
             elif 'what is' in query or 'who is' in query:
                 #use the same API key that we earlier i.e. wolframalpha
-                client = wolframalpha.Client('EAYTJT-2R9XP5AKKA')
+                client = wolframalpha.Client('yourapikey')
                 res = client.query(query)
 
                 try:
