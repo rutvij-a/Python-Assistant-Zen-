@@ -221,7 +221,7 @@ This project is licensed under the MIT License.
 
 ## 👨‍💻 Author
 
-Developed by **Rutvij A**
+Developed by **Rutvij A & Team**
 
 ---
 
